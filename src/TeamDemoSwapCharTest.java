@@ -5,8 +5,9 @@ import org.junit.jupiter.api.Test;
 class TeamDemoSwapCharTest {
 
 	@Test
-	void test() {
-		assertEquals("tema", "team");
+	void swapLast2Characters() {
+		assertEquals("tema", TeamDemoSwapChar.teamDemo ("team"));
+		
 	}
 
 }
