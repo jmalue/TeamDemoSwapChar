@@ -5,7 +5,7 @@ public class TeamDemoSwapChar {
 	}
 		public static String teamDemo(String str) {
 			int strLength = str.length();
-			if (str.length() == 0) {
+			if (str.length() <= 2) {
 				return str;
 			}
 			char lastCharacter = str.charAt(strLength -1);

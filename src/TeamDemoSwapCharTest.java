@@ -18,4 +18,10 @@ class TeamDemoSwapCharTest {
 	
 		
 	}
+	@Test
+	void twoCharacters() {
+		assertEquals("jt", TeamDemoSwapChar.teamDemo ("tj"));
+	
+		
+	}
 }
