@@ -7,7 +7,15 @@ class TeamDemoSwapCharTest {
 	@Test
 	void swapLast2Characters() {
 		assertEquals("tema", TeamDemoSwapChar.teamDemo ("team"));
+		//assertEquals("tema", TeamDemoSwapChar.teamDemo ("team"));
+	
 		
 	}
-
+	
+	@Test
+	void swapNoCharacters() {
+		assertEquals("", TeamDemoSwapChar.teamDemo (""));
+	
+		
+	}
 }
