@@ -8,7 +8,7 @@ public class TeamDemoSwapChar {
 			char lastCharacter = str.charAt(strLength -1);
 			char secToLastCharacter = str.charAt(strLength -2);
 			
-			return "" + lastCharacter + secToLastCharacter;
+			return "" + str.substring(0,2) + lastCharacter + secToLastCharacter;
 
 	}
 
